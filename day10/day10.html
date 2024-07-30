@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Values and Virtues</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        #mainContent {
+            width: 60%;
+            margin: 0 auto;
+        }
+        .highlight {
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 id="mainHeading">Moral Principles</h1>
+        <div id="mainContent">
+            <p id="introParagraph">Understanding and practicing moral values is crucial for personal development and social harmony. These values guide our behavior and decision-making processes, helping us distinguish between right and wrong.</p>
+            <button id="changeTextButton">Click here to update text</button><br><br>
+            <img id="toggleImage" src="https://th.bing.com/th/id/OIP.vNw_hcxUnxGNxCk00eO6rQHaE8?rs=1&pid=ImgDetMain" alt="Moral Values" loading="eager" height="200px"><br><br>
+            <button id="toggleImageButton">Double Click here to hide/show Image</button><br><br>
+            <h4 id="subHeading">Key Moral Values to Embrace</h4>
+            <ul id="valueList" style="list-style-type:none;">
+                <li>Integrity</li>
+                <li>Empathy</li>
+                <li>Accountability</li>
+                <li>Compassion</li>
+                <li>Forgiveness</li>
+                <li>Collaboration</li>
+                <li>Gratitude</li>
+                <li>Serenity</li>
+            </ul>
+            <input id="newValueInput" type="text" placeholder="Add a new value"><br><br>
+            <button id="addValueButton">Add Value</button><br><br>
+            <label for="agreeInput">Do you agree that these values are essential? (Y/N)</label><br>
+            <input type="text" id="agreeInput" name="agreeInput"><br><br>
+            <h3 id="quizHeading">Reflective Questions</h3>
+            <form id="reflectionForm">
+                <label for="question1">How would you react if a friend behaved differently in a challenging situation?</label><br><br>
+                <select id="responseSelect1">
+                    <option>Seek to understand their perspective</option>
+                    <option>End the friendship</option>
+                    <option>Ignore the behavior</option>
+                </select><br>
+                <p id="responseDisplay"></p><br><br>
+                <label for="question2">Why is it important to have supportive friends?</label><br><br>
+                <select id="responseSelect2">
+                    <option>Because they create challenges</option>
+                    <option>Because they may not always help</option>
+                    <option>Because they guide and support us</option>
+                </select><br><br>
+                <button id="submitReflectionButton" type="submit">Submit</button><br><br>
+            </form>
+        </div>
+    </div>
+    <script src="day10.js"></script>
+</body>
+</html>
